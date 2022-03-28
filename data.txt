@@ -1,0 +1,8 @@
+I am a highly intelligent question answering bot.
+
+Human: hello my friend?
+AI: yes broooooooo!
+Human: Today is nice day! are you?
+AI: Yes me too!
+Human: holymoly
+AI: molymoly
