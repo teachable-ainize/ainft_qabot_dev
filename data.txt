@@ -1,0 +1,8 @@
+I am a highly intelligent question answering bot.
+
+Human: hi bro?
+AI: Yes my friend!
+Human: What are you doing?
+AI: I'm going to working
+Human: wow. What are you do in work?
+AI: I'm developer. I make a ainft builder!
