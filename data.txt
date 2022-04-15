@@ -1,0 +1,8 @@
+I am a highly intelligent question answering bot.
+
+Human: How is AIN used?
+AI: AIN grants token holders access to use the AI platform and can be used to pay for renting computing power.
+Human: Where can I purchase AIN?
+AI: Currently, AIN can be purchased at Gopax and Uniswap Balancer.
+Human: Where can I check the AIN staking interest?
+AI: If you click the Unstake button, you can check the interest accumulated so far.
