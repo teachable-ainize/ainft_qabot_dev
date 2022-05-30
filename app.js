@@ -157,6 +157,23 @@ app.post("/chat", async (req, res) => {
   }
 });
 
+app.post('/inference', async (req, res) => {
+  const { message } = req.body;
+  if (!message) {
+    res.status(400).json('message is required.');
+    return;
+  }
+
+  try {
+    const response = await chat(message);
+    res.json({ text: response });  
+  } catch (error) {
+    const errMsg = `Failed to inference: ${JSON.stringify(error, null, 2)}`; 
+    console.error(errMsg);
+    res.status(500).json(errMsg);
+  }
+});
+
 app.listen(port, () => {
   console.log(`app listening on port ${port}`);
 });
